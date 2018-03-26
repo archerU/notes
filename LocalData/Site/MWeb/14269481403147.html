@@ -1,0 +1,628 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>  
+	  
+  	Markdown syntax guide and writing on MWeb - 
+  	
+	</title>
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="atom.xml" rel="alternate" title="" type="application/atom+xml">
+
+	<link href="asset/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="asset/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<script src="asset/javascripts/jquery.min.js"></script>
+	<script src="asset/highlightjs/highlight.pack.js"></script>
+	<link href="asset/highlightjs/styles/solarized_dark.css" media="screen, projection" rel="stylesheet" type="text/css">
+<script>hljs.initHighlightingOnLoad();</script>
+
+	<!--[if lt IE 9]><script src="asset/javascripts/html5.js"></script><![endif]-->
+	<!-- <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'> -->
+	<style type="text/css">
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Nunito-Light'), url(asset/font/1TiHc9yag0wq3lDO9cw0voX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito-Regular'), url(asset/font/6TbRXKWJjpj6V2v_WyRbMX-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nunito-Bold'), url(asset/font/TttUCfJ272GBgSKaOaD7KoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+	</style>
+	
+	<style type="text/css">
+	.container .left-col{ opacity: 1;}
+	#pagenavi a{ font-size: 1.3em;}
+	#pagenavi .next:before{ top: 3px;}
+	#pagenavi .prev:before{ top: 3px;}
+	.container .mid-col .mid-col-container #content .archives .title{ font-size: 1.5em;}
+	.container .mid-col .mid-col-container #content article{ padding: 15px 0px;}
+	#header .subtitle {
+		line-height: 1.2em;
+		padding-top: 8px;
+	}
+	article pre{ background: none; border: none; padding: 0;}
+	article .entry-content{text-align: left;}
+	.share-comment{ padding: 25px 0px; clear: both;}
+	hr{ margin: 20px 0px;border: 0; border-top:solid 1px #ddd;}
+	</style>
+  
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+				<header id="header" class="inner">
+					<div class="profilepic">
+						<img src="asset/icon.jpg" style="width:160px;">
+					</div>
+					<h1><a href="index.html"></a></h1>
+					<p class="subtitle"></p>
+					<nav id="main-nav">
+						<ul class="main">
+							<li><a href="index.html">Home</a></li>
+						    <!-- <li><a href="all.html">Blog</a></li>-->	
+						    <li><a href="archives.html">Archives</a></li>
+						</ul>
+					</nav>
+
+					<nav id="sub-nav">
+						<div class="social">
+
+<!-- 
+			<a class="email" href="mailto:" title="Email">Email</a>
+			<a class="facebook" href="http://www.facebook.com/" title="Facebook">Facebook</a>
+			<a class="google" href="https://plus.google.com/" rel="author" title="Google+">Google+</a>
+			<a class="twitter" href="http://twitter.com/" title="Twitter">Twitter</a>
+			<a class="github" href="https://github.com/" title="GitHub">GitHub</a>
+			<a class="coderwall" href="https://coderwall.com/" title="Coderwall">Coderwall</a>
+		    <a class="stackoverflow" href="http://stackoverflow.com/users/" title="StackOverflow"></a>
+			<a class="linkedin" href="http://www.linkedin.com/in/" title="LinkedIn">LinkedIn</a>
+			<a class="pinterest" href="https://pinterest.com/" title="Pinterest">Pinterest</a>
+			<a class="delicious" href="http://delicious.com/" title="Delicious">Delicious</a>
+			<a class="pinboard" href="https://pinboard.in/u:" title="Pinboard">Pinboard</a>
+			<a class="douban" href="https://www.douban.com/people/" title="Douban">Douban</a>
+			<a class="quora" href="https://quora.com/" title="Quora">Quora</a>
+			<a class="instagram" href="https://instagram.com/" title="Instagram">Instagram</a>
+			<a class="behance" href="https://www.behance.net/" title="Behance">Behance</a>
+			<a class="facebook" href="http://www.facebook.com/" title="Facebook">Facebook</a>
+								<a class="twitter" href="http://twitter.com/" title="Twitter">Twitter</a>
+								<a class="github" href="https://github.com/" title="GitHub">GitHub</a>
+-->	
+								
+
+								<a class="rss" href="atom.xml" title="RSS">RSS</a>
+							
+						</div>
+					</nav>
+				</header>				
+			</div>
+		</div>	
+		<div class="mid-col">
+			<div class="mid-col-container"> <div id="content" class="inner">
+
+	<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+		<h1 class="title" itemprop="name">Markdown syntax guide and writing on MWeb</h1>
+		<div class="entry-content" itemprop="articleBody">
+			<h2 id="toc_0">Philosophy</h2>
+
+<blockquote>
+<p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.<br/>
+Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it&#39;s been marked up with tags or formatting instructions.<br/>
+Markdown&#39;s syntax is intended for one purpose: to be used as a format for <em>writing</em> for the web.</p>
+</blockquote>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_1">Notice</h2>
+
+<p>You can use  <code>CMD + 4</code> or <code>CMD + R</code> to preview the result.</p>
+
+<h2 id="toc_2">Headers</h2>
+
+<p><strong>Example:</strong></p>
+
+<pre><code># This is an `&lt;h1&gt;` tag
+## This is an `&lt;h2&gt;` tag
+###### This is an `&lt;h6&gt;` tag
+</code></pre>
+
+<p><strong>Result:</strong></p>
+
+<h1 id="toc_3">This is an <code>&lt;h1&gt;</code> tag</h1>
+
+<h2 id="toc_4">This is an <code>&lt;h2&gt;</code> tag</h2>
+
+<h6 id="toc_5">This is an <code>&lt;h6&gt;</code> tag</h6>
+
+<h2 id="toc_6">Emphasis</h2>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+*You **can** combine them*
+</code></pre>
+
+<p><strong>Shortcuts:</strong>  <code>CMD + U</code>、<code>CMD + I</code>、<code>CMD + B</code><br/>
+<strong>Result:</strong></p>
+
+<p><em>This text will be italic</em><br/>
+<u>This will also be italic</u></p>
+
+<p><strong>This text will be bold</strong><br/>
+<strong>This will also be bold</strong></p>
+
+<p>*You <strong>can</strong> combine them*</p>
+
+<h2 id="toc_7">Newlines</h2>
+
+<p>End a line with two or more spaces + enter.<br/>
+Just typing enter to newline,please set：<code>Preferences</code> - <code>Themes</code> - <code>Translate newlines to &lt;br&gt; tags</code>  enable ( default is enable )</p>
+
+<h2 id="toc_8">Lists</h2>
+
+<h3 id="toc_9">Unordered</h3>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>* Item 1 unordered list `* + SPACE`
+* Item 2
+* Item 2a unordered list `TAB + * + SPACE`
+* Item 2b
+</code></pre>
+
+<p><strong>Shortcuts:</strong>  <code>Option + U</code><br/>
+<strong>Result:</strong></p>
+
+<ul>
+<li>Item 1 unordered list <code>* + SPACE</code></li>
+<li>Item 2</li>
+<li>Item 2a unordered list <code>TAB + * + SPACE</code></li>
+<li>Item 2b</li>
+</ul>
+
+<h3 id="toc_10">Ordered</h3>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>1. Item 1 ordered list `Number + . + SPACE`
+2. Item 2 
+3. Item 3
+1. Item 3a ordered list `TAB + Number + . + SPACE`
+2. Item 3b
+</code></pre>
+
+<p><strong>Result:</strong></p>
+
+<ol>
+<li>Item 1 ordered list <code>Number + . + SPACE</code></li>
+<li>Item 2 </li>
+<li>Item 3</li>
+<li>Item 3a ordered list <code>TAB + Number + . + SPACE</code></li>
+<li>Item 3b</li>
+</ol>
+
+<h3 id="toc_11">Task lists</h3>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>- [ ] task one not finish `- + SPACE + [ ]`
+- [x] task two finished `- + SPACE + [x]`
+</code></pre>
+
+<p><strong>Result:</strong></p>
+
+<ul>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" /> task one not finish <code>- + SPACE + [ ]</code>
+</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked /> task two finished <code>- + SPACE + [x]</code>
+</li>
+</ul>
+
+<h2 id="toc_12">Images</h2>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>![GitHub set up](https://help.github.com/assets/images/site/set-up-git.gif)
+Format: ![Alt Text](url)
+</code></pre>
+
+<p><strong>Shortcuts:</strong>  <code>Control + Shift + I</code><br/>
+The Library&#39;s document support drag &amp; drop or <code>CMD + V</code> paste or <code>CMD + Option + I</code> to insert  the picture.<br/>
+<strong>Result:</strong></p>
+
+<p><img src="https://help.github.com/assets/images/site/set-up-git.gif" alt="GitHub set up"/></p>
+
+<p>In MWeb, you can use <code>-w + Number</code> to control image width, for example, set the image width 140px:</p>
+
+<p><img src="https://help.github.com/assets/images/site/set-up-git.gif" alt="GitHub set up" style="width:140px;"/></p>
+
+<h2 id="toc_13">Links</h2>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>email &lt;example@example.com&gt;
+[GitHub](http://github.com)
+autolink  &lt;http://www.github.com/&gt;
+</code></pre>
+
+<p><strong>Shortcuts:</strong>  <code>Control + Shift + L</code><br/>
+The Library&#39;s document support drag &amp; drop or <code>CMD + Option + I</code> to insert attachment.<br/>
+<strong>Result:</strong></p>
+
+<p>An email <a href="mailto:example@example.com">example@example.com</a> link.<br/>
+<a href="http://github.com">GitHub</a><br/>
+Automatic linking for URLs<br/>
+Any URL (like <a href="http://www.github.com/">http://www.github.com/</a>) will be automatically converted into a clickable link.</p>
+
+<h2 id="toc_14">Blockquotes</h2>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>As Kanye West said:
+&gt; We&#39;re living the future so
+&gt; the present is our past.
+</code></pre>
+
+<p><strong>Shortcuts:</strong>  <code>CMD + Shift + B</code><br/>
+<strong>Result:</strong></p>
+
+<p>As Kanye West said:</p>
+
+<blockquote>
+<p>We&#39;re living the future so<br/>
+the present is our past.</p>
+</blockquote>
+
+<h2 id="toc_15">Inline code</h2>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>I think you should use an
+`&lt;addr&gt;` `code` element here instead.
+</code></pre>
+
+<p><strong>Shortcuts:</strong>  <code>CMD + K</code><br/>
+<strong>Result:</strong></p>
+
+<p>I think you should use an<br/>
+<code>&lt;addr&gt;</code> <code>code</code> element here instead.</p>
+
+<h2 id="toc_16">Multi-line code</h2>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>```js
+function fancyAlert(arg) {
+    if(arg) {
+        $.facebox({div:&#39;#foo&#39;})
+    }
+
+}
+```
+</code></pre>
+
+<p><strong>Shortcuts:</strong>  <code>CMD + Shift + K</code><br/>
+<strong>Result:</strong></p>
+
+<pre><code class="language-js">function fancyAlert(arg) {
+    if(arg) {
+        $.facebox({div:&#39;#foo&#39;})
+    }
+
+}
+</code></pre>
+
+<h2 id="toc_17">Sequence and Flow chart</h2>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>```sequence
+Andrew-&gt;China: Says Hello
+Note right of China: China thinks about it
+China--&gt;Andrew: How are you?
+Andrew-&gt;&gt;China: I am good thanks!
+```
+
+```flow
+st=&gt;start: Start:&gt;http://www.google.com[blank]
+e=&gt;end:&gt;http://www.google.com
+op1=&gt;operation: My Operation
+sub1=&gt;subroutine: My Subroutine
+cond=&gt;condition: Yes
+or No?:&gt;http://www.google.com
+io=&gt;inputoutput: catch something...
+
+st-&gt;op1-&gt;cond
+cond(yes)-&gt;io-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op1
+```
+</code></pre>
+
+<p><strong>Result:</strong> ( Please enable  <code>Preferences</code> - <code>Themes</code> - <code>Enable sequence &amp; flow chart</code>, default is enable. )</p>
+
+<pre><code class="language-sequence">Andrew-&gt;China: Says Hello
+Note right of China: China thinks about it
+China--&gt;Andrew: How are you?
+Andrew-&gt;&gt;China: I am good thanks!
+</code></pre>
+
+<pre><code class="language-flow">st=&gt;start: Start:&gt;http://www.google.com[blank]
+e=&gt;end:&gt;http://www.google.com
+op1=&gt;operation: My Operation
+sub1=&gt;subroutine: My Subroutine
+cond=&gt;condition: Yes
+or No?:&gt;http://www.google.com
+io=&gt;inputoutput: catch something...
+
+st-&gt;op1-&gt;cond
+cond(yes)-&gt;io-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op1
+</code></pre>
+
+<p>More info: <a href="http://bramp.github.io/js-sequence-diagrams/">http://bramp.github.io/js-sequence-diagrams/</a>, <a href="http://adrai.github.io/flowchart.js/">http://adrai.github.io/flowchart.js/</a></p>
+
+<h2 id="toc_18">Tables</h2>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+</code></pre>
+
+<p>You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:</p>
+
+<p><strong>Result:</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Content from cell 1</td>
+<td>Content from cell 2</td>
+</tr>
+<tr>
+<td>Content in the first column</td>
+<td>Content in the second column</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="toc_19">Strikethrough</h2>
+
+<p><strong>Example:</strong></p>
+
+<p>(like <del>this</del>)</p>
+
+<p><strong>Result:</strong></p>
+
+<p>Any word wrapped with two tildes (like <del>this</del>) will appear crossed out.</p>
+
+<h2 id="toc_20">Horizontal Rules</h2>
+
+<p>Following lines will produce a horizontal rule:</p>
+
+<hr/>
+
+<hr/>
+
+<hr/>
+
+<p><strong>Result:</strong></p>
+
+<hr/>
+
+<hr/>
+
+<hr/>
+
+<h2 id="toc_21">LaTex</h2>
+
+<p>Use double US dollars sign pair for Block level Math formula, and one US dollar sign pair for Inline Level.</p>
+
+<pre><code>For example this is a Block level $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula, and this is an inline Level $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ formula.
+
+\\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
+1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
+{1+\frac{e^{-8\pi}} {1+\ldots} } } } \\]
+
+</code></pre>
+
+<p><strong>Result:</strong></p>
+
+<p>For example this is a Block level \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}\] formula, and this is an inline Level \(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\) formula.</p>
+
+<p>\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =<br/>
+1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}<br/>
+{1+\frac{e^{-8\pi}} {1+\ldots} } } } \]</p>
+
+<h2 id="toc_22">Footnote</h2>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>This is a footnote:[^sample_footnote]
+</code></pre>
+
+<p><strong>Result:</strong></p>
+
+<p>This is a footnote:<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup></p>
+
+<h2 id="toc_23">Comment And Read More..</h2>
+
+<!-- comment -->
+
+<!-- more -->
+
+<p>Actions-&gt;Insert Read More Comment <em>OR</em> <code>CMD + .</code></p>
+
+<h2 id="toc_24">TOC</h2>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>[TOC]
+</code></pre>
+
+<p><strong>Result:</strong></p>
+
+<ul>
+<li>
+<a href="#toc_0">Philosophy</a>
+</li>
+<li>
+<a href="#toc_1">Notice</a>
+</li>
+<li>
+<a href="#toc_2">Headers</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_3">This is an <code>&lt;h1&gt;</code> tag</a>
+<ul>
+<li>
+<a href="#toc_4">This is an <code>&lt;h2&gt;</code> tag</a>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<a href="#toc_5">This is an <code>&lt;h6&gt;</code> tag</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_6">Emphasis</a>
+</li>
+<li>
+<a href="#toc_7">Newlines</a>
+</li>
+<li>
+<a href="#toc_8">Lists</a>
+<ul>
+<li>
+<a href="#toc_9">Unordered</a>
+</li>
+<li>
+<a href="#toc_10">Ordered</a>
+</li>
+<li>
+<a href="#toc_11">Task lists</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_12">Images</a>
+</li>
+<li>
+<a href="#toc_13">Links</a>
+</li>
+<li>
+<a href="#toc_14">Blockquotes</a>
+</li>
+<li>
+<a href="#toc_15">Inline code</a>
+</li>
+<li>
+<a href="#toc_16">Multi-line code</a>
+</li>
+<li>
+<a href="#toc_17">Sequence and Flow chart</a>
+</li>
+<li>
+<a href="#toc_18">Tables</a>
+</li>
+<li>
+<a href="#toc_19">Strikethrough</a>
+</li>
+<li>
+<a href="#toc_20">Horizontal Rules</a>
+</li>
+<li>
+<a href="#toc_21">LaTex</a>
+</li>
+<li>
+<a href="#toc_22">Footnote</a>
+</li>
+<li>
+<a href="#toc_23">Comment And Read More..</a>
+</li>
+<li>
+<a href="#toc_24">TOC</a>
+</li>
+</ul>
+
+
+<div class="footnotes">
+<hr/>
+<ol>
+
+<li id="fn1">
+<p>footnote text detail...&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+		</div>
+	</article>
+	<div class="share-comment">
+	
+	</div>
+</div>        </div>
+			<footer id="footer" class="inner">Copyright &copy; 2014
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; 
+Theme by <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank Mehta</a>
+      </footer>
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>

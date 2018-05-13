@@ -1,16 +1,31 @@
-# 雾森的博客
+# 博客笔记
 
 ## 进度
 
-JavaScript 深入系列 ![](http://progressed.io/bar/0)
+JavaScript 深入系列 15 篇 ![](http://progressed.io/bar/46)
 
-JavaScript 专题系列 ![](http://progressed.io/bar/0)
+react 框架设计系列 9 篇 ![](http://progressed.io/bar/0)
 
-react 框架设计系列 ![](http://progressed.io/bar/0)
-
-webpack  源码分析系列 ![](http://progressed.io/bar/0)
+webpack  源码分析系列 9 篇 ![](http://progressed.io/bar/0)
 
 ## 深入系列目录
+
+1. [JavaScript深入系列之词法作用域和动态作用域]()
+2. [JavaScript深入系列之函数作用域和块作用域]()
+3. [JavaScript深入系列之闭包]()
+4. JavaScript深入系列之模块
+5. [JavaScript深入系列之this]()
+6. [JavaScript深入系列之混合对象“类”]()
+7. JavaScript深入系列之原型和原型链
+8. [JavaScript深入系列之行为委托]()
+9. JavaScript深入系列之强制类型转换
+10. JavaScript深入系列之运算符优先级
+11. JavaScript深入系列之数字安全
+12. JavaScript深入系列之Promise
+13. JavaScrip深入系列之迭代器和生成器
+14. JavaScrip深入系列之并发
+15. JavaScript深入系列之元编程
+16. JavaScript深入系列15篇正式完结！
 
 ## react 框架设计系列
 

@@ -1,8 +1,16 @@
 # 博客笔记
 
+> 题记：我们要真正的理解掌握这门技术，而不仅仅学习和使用API而已。
+
 ## 进度
 
 JavaScript 深入系列 15 篇 ![](http://progressed.io/bar/46)
+
+JavaScript 专题系列 ![](http://progressed.io/bar/0)
+
+JavaScript 数据结构和算法 ![](http://progressed.io/bar/0)
+
+JavaScript 设计模式 ![](http://progressed.io/bar/0)
 
 react 框架设计系列 9 篇 ![](http://progressed.io/bar/0)
 
@@ -10,29 +18,24 @@ webpack  源码分析系列 9 篇 ![](http://progressed.io/bar/0)
 
 ## 深入系列目录
 
-1. [JavaScript深入系列之词法作用域和动态作用域]()
-2. [JavaScript深入系列之函数作用域和块作用域]()
-3. [JavaScript深入系列之闭包]()
-4. JavaScript深入系列之模块
-5. [JavaScript深入系列之this]()
-6. [JavaScript深入系列之混合对象“类”]()
-7. JavaScript深入系列之原型和原型链
-8. [JavaScript深入系列之行为委托]()
-9. JavaScript深入系列之强制类型转换
-10. JavaScript深入系列之运算符优先级
-11. JavaScript深入系列之数字安全
-12. JavaScript深入系列之Promise
-13. JavaScrip深入系列之迭代器和生成器
-14. JavaScrip深入系列之并发
-15. JavaScript深入系列之元编程
-16. JavaScript深入系列15篇正式完结！
+1. [JavaScript深入系列之词法作用域和动态作用域](https://github.com/archerU/notes/issues/1)
+2. [JavaScript深入系列之作用域链](https://github.com/archerU/notes/issues/2)
+3. [JavaScript深入系列之闭包](https://github.com/archerU/notes/issues/3)
+4. [JavaScript深入系列之this](https://github.com/archerU/notes/issues/4)
+5. JavaScript深入系列之原型和原型链
+6. [JavaScript深入系列之混合对象“类”](https://github.com/archerU/notes/issues/5)
+7. [JavaScript深入系列之数字](https://github.com/archerU/notes/issues/7)
+8. [JavaScript深入系列之强制类型转换](https://github.com/archerU/notes/issues/6)
+9. JavaScript深入系列之Promise
+10. JavaScrip深入系列之迭代器和生成器
+11. JavaScript深入系列10篇正式完结！
 
 ## react 框架设计系列
 
 1. 深入 jsx 原理实现
-2. setState 异步原理剖析
-3. Virtual DOM 与 DIFF 算法实现
-4. 生命周期内部逻辑探究
+2. Virtual DOM 与 DIFF 算法实现
+3. setState 同步异步原理剖析
+4. react LifeCycle
 5. react 更新策略深入
 6. react-router 核心原理(history)与架构设计
 7. flux 核心分析

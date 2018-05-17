@@ -4,7 +4,7 @@
 
 ## 进度
 
-JavaScript 深入系列 15 篇 ![](http://progressed.io/bar/46)
+JavaScript 深入系列 10 篇 ![](http://progressed.io/bar/70)
 
 JavaScript 专题系列 ![](http://progressed.io/bar/0)
 

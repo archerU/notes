@@ -1,6 +1,6 @@
 # 博客笔记
 
-前言：我们要真正的理解掌握这门技术，而不仅仅学习和使用API。
+我们要真正的理解掌握这门技术，而不仅仅学习和使用API。
 
 ## 进度
 
@@ -22,7 +22,7 @@ webpack  源码分析系列 9 篇 ![](http://progressed.io/bar/0)
 2. [JavaScript深入系列之作用域链](https://github.com/archerU/notes/issues/2)
 3. [JavaScript深入系列之闭包](https://github.com/archerU/notes/issues/3)
 4. [JavaScript深入系列之this](https://github.com/archerU/notes/issues/4)
-5. JavaScript深入系列之原型和原型链
+5. [JavaScript深入系列之原型和原型链](https://github.com/archerU/notes/issues/8)
 6. [JavaScript深入系列之混合对象“类”](https://github.com/archerU/notes/issues/5)
 7. [JavaScript深入系列之数字](https://github.com/archerU/notes/issues/7)
 8. [JavaScript深入系列之强制类型转换](https://github.com/archerU/notes/issues/6)

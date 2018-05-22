@@ -4,7 +4,7 @@
 
 ## 进度
 
-JavaScript 深入系列 10 篇 ![](http://progressed.io/bar/70)
+JavaScript 深入系列 10 篇 ![](http://progressed.io/bar/80)
 
 JavaScript 专题系列 ![](http://progressed.io/bar/0)
 
@@ -26,7 +26,7 @@ webpack  源码分析系列 9 篇 ![](http://progressed.io/bar/0)
 6. [JavaScript深入系列之混合对象“类”](https://github.com/archerU/notes/issues/5)
 7. [JavaScript深入系列之数字](https://github.com/archerU/notes/issues/7)
 8. [JavaScript深入系列之强制类型转换](https://github.com/archerU/notes/issues/6)
-9. JavaScript深入系列之Promise
+9. [JavaScript深入系列之Promise](https://github.com/archerU/notes/issues/9)
 10. JavaScrip深入系列之迭代器和生成器
 11. JavaScript深入系列10篇正式完结！
 

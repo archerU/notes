@@ -4,13 +4,13 @@
 
 ## 进度
 
-JavaScript 深入系列 10 篇 ![](http://progressed.io/bar/80)
+JavaScript 深入系列 10 篇 ![](http://progressed.io/bar/90)
 
 JavaScript 专题系列 ![](http://progressed.io/bar/0)
 
 JavaScript 数据结构和算法 ![](http://progressed.io/bar/0)
 
-JavaScript 设计模式 ![](http://progressed.io/bar/0)
+JavaScript 设计模式 15 篇 ![](http://progressed.io/bar/33)
 
 react 框架设计系列 9 篇 ![](http://progressed.io/bar/0)
 
@@ -28,7 +28,7 @@ webpack  源码分析系列 9 篇 ![](http://progressed.io/bar/0)
 8. [JavaScript深入系列之强制类型转换](https://github.com/archerU/notes/issues/6)
 9. [JavaScript深入系列之Promise](https://github.com/archerU/notes/issues/9)
 10. JavaScrip深入系列之迭代器和生成器
-11. JavaScript深入系列10篇正式完结！
+11. [JavaScript深入系列10篇正式完结！](https://github.com/archerU/notes/issues/11)
 
 ## react 框架设计系列
 
@@ -40,7 +40,8 @@ webpack  源码分析系列 9 篇 ![](http://progressed.io/bar/0)
 6. react-router 核心原理(history)与架构设计
 7. flux 核心分析
 8. redux 原理分析
-9. react 性能优化即服务端渲染(SSR)
+9. react 性能优化
+10. react 预渲染和SSR
  
 ## webpack 源码分析系列
 
@@ -53,6 +54,14 @@ webpack  源码分析系列 9 篇 ![](http://progressed.io/bar/0)
 7. 缓存处理-第三方类库单独打包
 8. ESprima 识别与处理分割点 require.ensure
 9. 打包文件切割按需加载实现
+
+## 设计模式
+
+1. [设计模式概览](https://github.com/archerU/notes/issues/12)
+2. [发布-订阅模式](https://github.com/archerU/notes/issues/13)
+3. [中介者模式](https://github.com/archerU/notes/issues/14)
+4. [迭代器模式](https://github.com/archerU/notes/issues/16)
+5. [代理模式](https://github.com/archerU/notes/issues/15)
 
 ## 注意
 

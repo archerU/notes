@@ -30,6 +30,10 @@ webpack  源码分析系列 9 篇 ![](http://progressed.io/bar/0)
 10. [JavaScrip深入系列之迭代器和生成器](https://github.com/archerU/notes/issues/10)
 11. [JavaScript深入系列10篇正式完结！](https://github.com/archerU/notes/issues/11)
 
+## 专题系列目录
+
+1. [JavaScript专题系列之事件循环](https://github.com/archerU/notes/issues/17)
+
 ## react 框架设计系列
 
 1. 深入 jsx 原理实现

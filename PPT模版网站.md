@@ -1,4 +1,4 @@
-- [PPTSTORE](https://www.pptstore.net)
+- [PPTSTORE 付费](https://www.pptstore.net)
 - [包图网](https://ibaotu.com)
 - [iSlide](https://www.islide.cc)
 - [演界网](http://www.yanj.cn)
